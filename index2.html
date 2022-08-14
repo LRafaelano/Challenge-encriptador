@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    <title>ENCRIPTADOR</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="enciptador.css">
+</head>
+<body>
+    <header>
+       <img src="imagenes/Logo-1.png" alt="Logo de Alura" id="logo-alura">
+    </header>
+    <main>
+        <div class="areaPrincipal">
+            <div class="segundaArea">
+                <textarea type="text" id="texto" placeholder="Ingrese texto aquí"  maxlength="750" autofocus></textarea>
+                <div class="advertencia">
+                    <img src="imagenes/Vector.png">
+                    <span>Solo letras minúsculas y sin acentos</span>
+                </div>
+                <div class="botones">
+                    <button id="Encriptar"> Encriptar</button>
+                    <button id="Desencriptar">Desencriptar</button>
+                </div>
+            </div>
+                
+            <div id="mensaje">
+                    <img src="imagenes/Muñeco.png" alt="Muñeco">
+                    <p id="textoGrande">Ningún mensaje fue encontrado</p>
+                    <p id="textoPequeño">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+           <!-- <button id="copias" > Copiar</button>-->
+        </div>
+        
+    </main>
+    
+    <footer> 
+        <p class="copyright">&COPY Copyright  Ligia Rafaelano</p>
+    </footer>
+    <script src="encriptador.js"></script>
+</body>
+</html>
